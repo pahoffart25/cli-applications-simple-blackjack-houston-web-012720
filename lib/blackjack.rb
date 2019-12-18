@@ -39,13 +39,13 @@ if user_input == "s"
      card_total + deal_card
   else
      invalid_command
+     prompt_user
+     get_user_input
   end
 end
 
 def invalid_command
  puts "Please enter a valid command"
- prompt_user
- get_user_input
 end
 
 #####################################################
