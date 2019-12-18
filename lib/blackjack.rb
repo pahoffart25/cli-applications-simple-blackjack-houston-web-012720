@@ -38,7 +38,7 @@ if user_input == "s"
   elsif user_input == "h"
      card_total + deal_card
   else
-    puts invalid_command
+     invalid_command
   end
 end
 
