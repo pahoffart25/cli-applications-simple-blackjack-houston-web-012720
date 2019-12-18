@@ -44,7 +44,7 @@ if user_input == "s"
 end
 
 def invalid_command
- puts "Please enter a valid command"
+ "Please enter a valid command"
 end
 
 #####################################################
