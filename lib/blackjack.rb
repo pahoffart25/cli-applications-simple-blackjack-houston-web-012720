@@ -43,7 +43,7 @@ if user_input == "s"
 end
 
 def invalid_command
- return "Please enter a valid command"
+ puts "Please enter a valid command"
  prompt_user
  get_user_input
 end
