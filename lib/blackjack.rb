@@ -39,7 +39,7 @@ if user_input == "s"
      card_total + deal_card
   else
      invalid_command
-     return prompt_user
+     prompt_user
   end
 end
 
